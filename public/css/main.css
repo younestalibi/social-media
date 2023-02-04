@@ -1,0 +1,145 @@
+td{
+    padding: 10px 0px 10px;
+}
+
+.img{
+    width: 150px;
+    height:150px;
+    float:left;
+    border-radius: 50%;
+    margin-right: 25px;
+    object-fit: cover;
+}
+.img-edite{
+    width: 70px;
+    height:70px;
+    float:left;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+
+.img-nav{
+    width: 34px;
+    height:34px;
+    border-radius: 50%;
+    border: 2.7px solid black;
+}
+.img-follow{
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+.icon-size{
+  font-size: 24px !important;
+    
+}
+#img_post{
+  width: 42px ;
+  height:42px ;
+  border-radius: 50% ;
+  margin-right: 10px ;
+  
+}
+.line_hight{
+  line-height: 17px;
+}
+
+/* .grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-item {
+  padding: 20px;
+  text-align: left;
+  box-sizing: border-box;
+  align-self: center;
+  height: 270px !important;
+  overflow: hidden;
+} */
+/* .post_list_profile{
+  cursor: pointer;
+  width:280px !important;
+  transition:width 0.4s !important;
+}*/
+.bob:hover.gg{
+  
+  width:100% !important;
+  background-color: blue !important;
+} 
+
+
+/* pop_followers_following */
+.modal {
+  display: none; /* Hidden by default */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100% !important; /* Full height */
+  overflow: hidden !important; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 0%;
+  border: 1px solid #888;
+  width:85% !important  ; /* Could be more or less, depending on screen size */
+  max-height: 80% !important;
+  overflow: hidden !important; /* Enable scroll if needed */
+
+}
+.cc{
+  height: 100% !important;
+}
+.image{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100% !important;
+}
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: -5px;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+a{
+  text-decoration: none !important;
+  color:black !important;
+}
+
+
+
+
+
+
+
+#search_resault li:hover:not(.header) {
+  background-color: #eee;
+  cursor: pointer;
+}
+
+
+
+/* html,body{
+  height: 100%;
+}
+
+#hdi{
+  height: 100%;  
+} */
+
+.friends:hover{
+  background-color: rgba(128, 128, 128, 0.185)
+}
