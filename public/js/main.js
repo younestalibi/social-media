@@ -155,9 +155,9 @@ $('#search').on('keyup', function(){
             else{
                 $('#search_resault').append('<li class="list-group-item">there is no results</li>')
             }
-            // $( "#search" ).focusout(function() {
-            //     $('#search_resault').slideUp()
-            // });
+            $( "#search" ).focusout(function() {
+                $('#search_resault').slideUp()
+            });
         },
     });
 })
